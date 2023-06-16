@@ -22,7 +22,7 @@ It is hard to trace all root files that caused `src/file` to be loaded.
 The goal is to have an output like
 
 ```
-src/file.ts > src/other-file.ts > src/main.ts
+src/file.ts < src/other-file.ts < src/main.ts
 ```
 
 So you can easily trace the root file
